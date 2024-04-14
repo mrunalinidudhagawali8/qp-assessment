@@ -31,8 +31,7 @@ This document serves as a guide for the Grocery Booking API, a SpringBoot applic
 
 **Roles:**
 
-* Currently, there are only two predefined roles: "admin_role" and "user_role". 
-* Implement proper authentication mechanisms to assign these roles to users.
+* Currently, there are only two predefined roles: "admin_role" and "user_role".
 
 ** H2 Database Access - `http://localhost:8080/h2-console`
 
@@ -96,7 +95,7 @@ This document serves as a guide for the Grocery Booking API, a SpringBoot applic
   }
 }
 `
-    * **Response:** Created (201) with a boolean flag indicating successful order placement, throws `InsufficientStockException` if insufficient stock exists.
+    * **Response:** Created (200) with a boolean flag indicating successful order placement, throws `InsufficientStockException` if insufficient stock exists.
 
 **Error Handling:**
 
