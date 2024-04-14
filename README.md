@@ -2,6 +2,9 @@
 
 This document serves as a guide for the Grocery Booking API, a SpringBoot application designed for managing grocery inventory and facilitating user orders.
 
+### Docker Image
+   * `docker pull mrunalinidudhagawali/my-grocery-api`
+     
 ### Features
 
 * **Grocery Management (Admin):** (Requires "admin_role")
