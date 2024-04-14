@@ -3,7 +3,8 @@
 This document serves as a guide for the Grocery Booking API, a SpringBoot application designed for managing grocery inventory and facilitating user orders.
 
 ### Docker Image
-   * `docker pull mrunalinidudhagawali/my-grocery-api`
+   * To pull docker image `docker pull mrunalinidudhagawali/my-grocery-api`
+   * To run the docker image and exposed to localhost port 8080 `docker run -p 8080:8080 mrunalinidudhagawali/my-grocery-api:1.0.0`
      
 ### Features
 
